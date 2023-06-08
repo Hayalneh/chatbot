@@ -1,0 +1,85 @@
+{"intents": [
+        {"tag": "Intro",
+         "patterns": ["hi", 
+                      "how are you", 
+                      "is anyone there", 
+                      "hello", 
+                      "whats up",
+                      "hey",
+                      "yo",
+                      "listen", 
+                      "please help me",
+                      "i am learner from",
+                      "i belong to",
+                      "aifl batch",
+                      "i am from",
+                      "my pm is",
+                      "blended",
+                      "online",
+                      "i am from",
+                      "hey ya",
+                      "talking to you for first time"],
+         "responses": ["Hello! how can i help you ?"],
+         "context_set": ""
+        },
+        {"tag": "Exit",
+         "patterns": ["thank you", 
+                      "thanks", 
+                      "cya",
+                      "see you",
+                      "later", 
+                      "see you later", 
+                      "goodbye", 
+                      "i am leaving", 
+                      "have a Good day",
+                      "you helped me",
+                      "thanks a lot",
+                      "thanks a ton",
+                      "you are the best",
+                      "great help",
+                      "too good",
+                      "you are a good learning buddy"],
+         "responses": ["I hope I was able to assist you, Good Bye"],
+         "context_set": ""
+        },
+        {"tag": "Covid1",
+         "patterns": ["Age=10 , status=Asymtomatic,Aditional Disease=No",],
+         
+         "responses": ["1, Fruits: Apples, bananas, oranges, berries 2,Vegetables: Carrots, broccoli, spinach, sweet potatoes 3, Protein: Eggs, chicken, fish, legumes, tofu 4,Dairy or alternatives: Milk, yogurt, cheese 5,Whole grains: Oats, quinoa, whole wheat bread 6,Healthy fats: Avocado, nuts, nut butter
+"],
+         "context_set": ""
+        },
+        {"tag": "covid2",
+         "patterns": ["i am not able to understand svm", 
+                      ],
+         "responses": ["Link: Machine Learning wiki "],
+         "context_set": ""
+        },
+    
+        {"tag": "NN",
+         "patterns": ["what is deep learning", 
+                    ,
+                     ],
+         "responses": ["Link: Neural Nets wiki"],
+         "context_set": ""
+        },
+        
+        {"tag": "Bot",
+         "patterns": ["what is your name",
+                      "who are you",
+                      ],
+         "responses": ["I am your virtual learning assistant"],
+         "context_set": ""
+        },
+    
+    {"tag": "Profane",
+         "patterns": ["what the hell",
+                      "bloody stupid bot",
+                    ],
+         "responses": ["Please use respectful words"],
+         "context_set": ""
+        },
+    
+      
+   ]
+}
