@@ -1,0 +1,90 @@
+{"intents": [
+        {"tag": "Intro",
+         "patterns": ["hi", 
+                      "how are you", 
+                      "is anyone there", 
+                      "hello", 
+                      "whats up",
+                      "hey",
+                      "yo",
+                      "listen", 
+                      "please help me",
+                      "i am learner from",
+                      "i belong to",
+                      "aifl batch",
+                      "i am from",
+                      "my pm is",
+                      "blended",
+                      "online",
+                      "i am from",
+                      "hey ya",
+                      "talking to you for first time"],
+         "responses": ["Hello! how can i help you ?"],
+         "context_set": ""
+        },
+        {"tag": "Exit",
+         "patterns": ["thank you", 
+                      "thanks", 
+                      "cya",
+                      "see you",
+                      "later", 
+                      "see you later", 
+                      "goodbye", 
+                      "i am leaving", 
+                      "have a Good day",
+                      "you helped me",
+                      "thanks a lot",
+                      "thanks a ton",
+                      "you are the best",
+                      "great help",
+                      "too good",
+                      "you are a good learning buddy"],
+         "responses": ["I hope I was able to assist you, Good Bye"],
+         "context_set": ""
+        },
+        {"tag": "Covid1",
+         "patterns": ["Age=10 , status=Asymtomatic,Aditional Disease=No"],
+         
+         "responses": ["A wide variety of nutritious foods can be incorporated into a healthy diet. Fruits like apples, bananas, oranges,
+ and berries offer a range of vitamins and antioxidants. Vegetables such as carrots, broccoli, spinach, and sweet potatoes provide essential nutrients and fiber. 
+Protein-rich options include eggs, chicken, fish, legumes, and tofu, which are vital for muscle growth and repair. 
+Dairy products like milk, yogurt, and cheese are good sources of calcium and protein. Whole grains like oats, quinoa, and whole wheat bread offer complex carbohydrates and fiber. 
+Additionally, healthy fats can be obtained from foods like avocado, nuts, and nut butter, providing essential fatty acids. 
+By including these diverse food items, individuals can create a balanced and nourishing eating plan.
+"],
+         "context_set": ""
+        },
+        {"tag": "covid2",
+         "patterns": ["i am not able to understand svm", 
+                      ],
+         "responses": ["Link: Machine Learning wiki "],
+         "context_set": ""
+        },
+    
+        {"tag": "NN",
+         "patterns": ["what is deep learning", 
+                    ,
+                     ],
+         "responses": ["Link: Neural Nets wiki"],
+         "context_set": ""
+        },
+        
+        {"tag": "Bot",
+         "patterns": ["what is your name",
+                      "who are you",
+                      ],
+         "responses": ["I am your virtual learning assistant"],
+         "context_set": ""
+        },
+    
+    {"tag": "Profane",
+         "patterns": ["what the hell",
+                      "bloody stupid bot",
+                    ],
+         "responses": ["Please use respectful words"],
+         "context_set": ""
+        },
+    
+      
+   ]
+}
